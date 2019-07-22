@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+
+    <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home"/>
+    <item
+            android:id="@+id/nav_composer_vehicule"
+            android:icon="@drawable/ic_composer"
+            android:title="@string/menu_composer_vehicule"/>
+    <item
+            android:id="@+id/nav_models"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/menu_models"/>
+
+    <item
+            android:id="@+id/nav_versions"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/menu_versions"/>
+
+    <item
+            android:id="@+id/nav_commands"
+            android:icon="@drawable/ic_ads"
+            android:title="@string/menu_commands"/>
+
+
+
+    <group android:checkableBehavior="none">
+
+        <item
+                android:id="@+id/nav_ads"
+                android:icon="@drawable/ic_ads"
+                android:title="@string/menu_ads"/>
+
+        <item
+                android:id="@+id/nav_offers"
+                android:icon="@drawable/ic_ads"
+                android:title="@string/menu_offers"/>
+
+
+
+    </group>
+
+
+
+
+        <group android:checkableBehavior="none">
+
+            <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_ads"
+                    android:title="@string/menu_about"/>
+
+
+            <item
+                    android:id="@+id/nav_tools"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="@string/menu_settings"/>
+        </group>
+
+
+</menu>

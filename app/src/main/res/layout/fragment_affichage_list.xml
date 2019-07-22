@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".AffichageList">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+            android:id="@+id/lstMark"
+            android:layout_height="500dp" android:layout_width="wrap_content">
+
+    </ListView>
+    <Button
+            android:text="@string/suivant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/btnSuiv" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp" android:layout_alignParentStart="true"
+            android:layout_marginStart="323dp" android:layout_marginTop="55dp" android:layout_below="@+id/lstMark"
+            android:layout_toRightOf="@+id/btnPre" android:layout_marginLeft="235dp"/>
+    <Button
+            android:text="@string/précedent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/btnPre" android:layout_marginTop="55dp"
+            android:layout_below="@+id/lstMark"/>
+
+
+</RelativeLayout>

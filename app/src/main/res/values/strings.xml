@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Facebook ID -->
+    <string name="facebook_app_id">196928071233918</string>
+    <string name="fb_login_protocol_scheme">fb196928071233918</string>
+
+    <string name="app_name">SayaraDZ</string>
+    <string name="automobiliste">Automobiliste</string>
+    <string name="utilisateur_annonyme">utilisateur annonyme</string>
+    <string name="todo">TODO</string>
+    <string name="use_it_as">use it as :</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_recherche">Recherche</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="nav_home">home</string>
+    <string name="nav_not">notification</string>
+    <string name="nav_tran">transaction</string>
+    <string name="suivant">suivant</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="précedent">précedent</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sayara DZ</string>
+    <string name="nav_header_subtitle">sayara_dz@esi.dz</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Acceuil</string>
+    <string name="menu_composer_vehicule">Composer Véhicule</string>
+    <string name="menu_models">Mes Modèles</string>
+    <string name="menu_versions">Mes Versions</string>
+    <string name="menu_commands">Mes Commandes</string>
+    <string name="menu_ads">Mes Annonces</string>
+    <string name="menu_offers">Mes Offres</string>
+    <string name="menu_about">A propos</string>
+    <string name="menu_settings">Paramètres</string>
+
+    <string name="home_fragment_title">Acceuil</string>
+
+    <string name="home_fragment_marques">Marques</string>
+    <string name="home_fragment_nouvelles_voitures">Nouveautés</string>
+    <string name="home_fragment_voitures_occasions">Occasions</string>
+    <string name="home_fragment_view_all">Voir Tous</string>
+    <string name="fragment_manufacturers_list_title">Marques</string>
+    <string name="fragment_models_title">Modèles Disponibles</string>
+    <string name="fragment_versions_title">Versions Disponibles</string>
+    <string name="fragment_ads_title">Annonces Publiées</string>
+    <string name="fragment_ad_details_title">Détails Annonce</string>
+    <string name="FollowBtn">followbtn</string>
+
+</resources>

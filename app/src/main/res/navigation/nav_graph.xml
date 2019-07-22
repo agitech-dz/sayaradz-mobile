@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/homeFragment">
+
+
+
+    <fragment android:id="@+id/manufacturersListFragment"
+              android:name="com.example.sayaradz.ManufacturersListFragment"
+              android:label="@string/fragment_manufacturers_list_title"
+              tools:layout="@layout/fragment_manufacturers_list">
+        <action android:id="@+id/action_manufacturersListFragment_to_manufacturerModelsFragment" app:destination="@id/modelsFragment"/>
+
+    </fragment>
+
+    <fragment android:id="@+id/homeFragment"
+              android:name="com.example.sayaradz.HomeFragment"
+              android:label="@string/home_fragment_title"
+              tools:layout="@layout/fragment_home">
+            <action android:id="@+id/action_homeFragment_to_manufacturersListFragment" app:destination="@id/manufacturersListFragment"/>
+            <action android:id="@+id/action_homeFragment_to_manufacturerModelsFragment" app:destination="@id/modelsFragment"/>
+            <action android:id="@+id/action_homeFragment_to_versionsFragment" app:destination="@id/versionsFragment"/>//newCars
+            <action android:id="@+id/action_homeFragment_to_adsFragment" app:destination="@id/adsFragment"/>//Ads
+        <action android:id="@+id/action_homeFragment_to_adDetailsFragment" app:destination="@id/adDetailsFragment"/>
+    </fragment>
+
+    <fragment android:id="@+id/modelsFragment"
+              android:name="com.example.sayaradz.ModelFragment"
+              android:label="@string/fragment_models_title"
+              tools:layout="@layout/fragment_model">
+        <argument android:name="manufacturerId" app:argType="integer"/>
+        <action android:id="@+id/action_modelsFragment_to_versionsFragment" app:destination="@id/versionsFragment"/>
+    </fragment>
+
+    <fragment android:id="@+id/versionsFragment"
+              android:name="com.example.sayaradz.VersionFragment"
+              android:label="@string/fragment_versions_title"
+              tools:layout="@layout/fragment_version">
+        <argument android:name="modelCode" app:argType="string"/>
+    </fragment>
+
+    <fragment android:id="@+id/adDetailsFragment"
+              android:name="com.example.sayaradz.AdDetailsFragment"
+              android:label="@string/fragment_ad_details_title"
+              tools:layout="@layout/fragment_ad_details">
+        <argument android:name="adId" app:argType="integer"/>
+
+    </fragment>
+
+    <fragment android:id="@+id/adsFragment"
+              android:name="com.example.sayaradz.AdFragment"
+              android:label="@string/fragment_ads_title"
+              tools:layout="@layout/fragment_ad">
+        <action android:id="@+id/action_adsFragment_to_adDetailsFragment" app:destination="@id/adDetailsFragment"/>
+    </fragment>
+
+
+
+</navigation>
